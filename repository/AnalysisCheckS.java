@@ -2,6 +2,7 @@ package model.repository;
 
 import java.sql.SQLException;
 
+//Запись данных по корреляции между ценами и прибылями компании в базу данных
 public class AnalysisCheckS extends BaseTable implements TableOperations{
 
     public AnalysisCheckS() throws SQLException {
