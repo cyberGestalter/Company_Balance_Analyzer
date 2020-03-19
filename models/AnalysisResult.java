@@ -1,5 +1,6 @@
 package model.models;
 
+//Класс для хранения результата оценки компании
 public class AnalysisResult {
     private String ticker;
 
