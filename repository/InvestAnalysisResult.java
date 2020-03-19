@@ -2,6 +2,7 @@ package model.repository;
 
 import java.sql.SQLException;
 
+//Запись результата анализа финансовых данных компании в базу данных
 public class InvestAnalysisResult extends BaseTable implements TableOperations {
     public InvestAnalysisResult() throws SQLException {
         super("analysis_results");
