@@ -1,11 +1,11 @@
 package model.models;
 
-//Анализ прибылей
+//Данные анализа прибылей
+public class EarningsAnalysisResult {
     //1) p/e
     //2) Динамика объема продаж
     //3) Сравнение темпов роста продаж и прибыли
     //4) Меньшая капитализация
-public class EarningsAnalysisResult {
     private String ticker;
     private int year;
     private String priceToEPSvalueEvaluation;
