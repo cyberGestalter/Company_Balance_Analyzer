@@ -2,6 +2,7 @@ package model.repository;
 
 import java.sql.SQLException;
 
+//Запись обработаных финансовых данных компании в базу данных
 public class CalculatedDataS extends BaseTable implements TableOperations {
     public CalculatedDataS() throws SQLException {
         super("calculated_data");
