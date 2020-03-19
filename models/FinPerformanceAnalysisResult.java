@@ -1,7 +1,7 @@
 package model.models;
 
+//Данные анализа прочих финансовых показателей
 public class FinPerformanceAnalysisResult {
-    //Анализ прочих финансовых показателей
     //1) B/V и p/b
     //2) PM
     //3) SPS и p/s
