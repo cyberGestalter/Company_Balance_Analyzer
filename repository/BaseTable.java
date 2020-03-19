@@ -6,7 +6,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-// Сервисный родительский класс, куда вынесена реализация общих действий для всех таблиц
+// Сервисный родительский класс, куда вынесена реализация общих действий для всех таблиц базы данных
 public class BaseTable {
     Connection connection;  // JDBC-соединение для работы с таблицей
     String tableName;       // Имя таблицы
